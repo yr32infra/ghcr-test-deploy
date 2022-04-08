@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   ghcrtest:
-    image: ghcr.io/yanorei32/ghcr-test:latest@sha256:a208935bb4eb2892016a37ffca068375d85b7bb04963009e0a9aacb4dc8aca1e
+    image: ghcr.io/yanorei32/ghcr-test:latest@sha256:76d3314b10626f094329cbe17da4dd5804ce34a530a576059ca5d714eb601732
     hostname: ghcrtest
     container_name: ghcrtest__ghcrtest
     restart: unless-stopped
